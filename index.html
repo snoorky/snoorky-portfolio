@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Raphael Vitor</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-brand">
+            <a href="#">
+                <img src="./images/logo-1024.png" alt="logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="container-navbar">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+                <div class="line"></div>
+                <li class="dropdown">
+                    <button class="dropdown-language">
+                        <i id="dropdown-toggler" class="bi bi-translate"></i>
+                        <span id="language">English</span>
+                        <i id="select-toggler" class="bi bi-chevron-down"></i>
+                    </button>
+                    <ul class="dropdown-list">
+                        <li class="dropdown-item" onclick="changeLanguage('Português')">Português</li>
+                        <li class="dropdown-item" onclick="changeLanguage('English')">English</li>
+                        <li class="dropdown-item" onclick="changeLanguage('日本語')">日本語</li>
+                    </ul>
+                </li>
+                <div class="line"></div>
+                <ul class="toggle-button-cover">
+                    <span class="theme">Appearance</span>
+                    <label for="checkbox-switch" class="switch">
+                        <input type="checkbox" name="checkbox-switch" id="checkbox-switch">
+                        <span class="slider"></span>
+                    </label>
+                </ul>
+                <div class="line"></div>
+                <ul class="social">
+                    <li class="nav-social">
+                        <a href="#" class="social-link">
+                            <i id="social-icon" class="bi bi-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="nav-social">
+                        <a href="#" class="social-link">
+                            <i id="social-icon" class="bi bi-github"></i>
+                        </a>
+                    </li>
+                    <li class="nav-social">
+                        <a href="#" class="social-link">
+                            <i id="social-icon" class="bi bi-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-social">
+                        <a href="#" class="social-link">
+                            <i id="social-icon" class="bi bi-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
+        <div class="container-navbar">
+            <i id="menu-toggler" class="bi bi-list"></i>
+        </div>
+    </header>
+    <script src="./js/controls.js"></script>
+</body>
+
+</html>

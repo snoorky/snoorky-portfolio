@@ -1,0 +1,119 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("./header.css");
+
+/* Componentes */
+
+@import url("./components/navbar.css");
+@import url("./components/dropdown.css");
+@import url("./components/switch.css");
+
+@font-face {
+    font-family: "SF Pro Display Black";
+    src: url("../fonts/SF-Pro-Display-Black.otf") format("opentype"),
+}
+
+@font-face {
+    font-family: "SF Pro Display Heavy";
+    src: url("../fonts/SF-Pro-Display-Heavy.otf") format("opentype"),
+}
+
+@font-face {
+    font-family: "SF Pro Display Bold";
+    src: url("../fonts/SF-Pro-Display-Bold.otf") format("opentype"),
+}
+
+@font-face {
+    font-family: "SF Pro Display Semibold";
+    src: url("../fonts/SF-Pro-Display-Semibold.otf") format("opentype"),
+}
+
+@font-face {
+    font-family: "SF Pro Display Medium";
+    src: url("../fonts/SF-Pro-Display-Medium.otf") format("opentype"),
+}
+
+@font-face {
+    font-family: "SF Pro Display Regular";
+    src: url("../fonts/SF-Pro-Display-Regular.otf") format("opentype"),
+}
+
+@font-face {
+    font-family: "SF Pro Display Light";
+    src:
+        url("../fonts/SF-Pro-Display-Light.otf") format("opentype"),
+}
+
+@font-face {
+    font-family: "SF Pro Display Thin";
+    src: url("../fonts/SF-Pro-Display-Thin.otf") format("opentype"),
+}
+
+@font-face {
+    font-family: "SF Pro Display Ultralight";
+    src: url("../fonts/SF-Pro-Display-Ultralight.otf") format("opentype");
+}
+
+:root {
+    /* Breakpoints */
+    --sizeLarge: 1728px;
+    --sizeDesktop: 1280px;
+    --sizeTablet: 834px;
+    --sizeMobile: 430px;
+    --sizeSmaller: 320px;
+    /* Cores */
+    --purple: #746de5;
+    --blue: #b6e7e3;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --white: #ffffff;
+    --gray-100: #f8f9fa;
+    --gray-200: #e9ecef;
+    --gray-300: #dee2e6;
+    --gray-400: #ced4da;
+    --gray-500: #adb5bd;
+    --gray-600: #6c757d;
+    --gray-700: #495057;
+    --gray-800: #343a40;
+    --gray-900: #212529;
+    --black: #000000;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Display Medium";
+    background: linear-gradient(90deg, #07233b 1.67%, #041d34 39.95%, #04192d 58.24%, #040e18 80.28%, #050c16 101.48%);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6,
+p,
+span {
+    font-size: 1rem;
+}

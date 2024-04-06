@@ -1,0 +1,156 @@
+/* navbar.css */
+
+nav {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    background-color: var(--black);
+    box-shadow: 0 -1px 3px 0 rgba(255, 255, 255, 0.3);
+}
+
+.container-navbar {
+    padding: 0 16px;
+    display: block;
+    flex-direction: column;
+}
+
+.nav-item {
+    display: list-item;
+    list-style: none;
+    padding: 8px 0;
+    color: var(--white);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--white);
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.toggle-button-cover {
+    background-color: var(--gray-900);
+    margin: 16px 0;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme {
+    color: white;
+}
+
+.social {
+    display: flex;
+    margin: 16px 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.nav-social {
+    display: flex;
+    align-items: center;
+    margin: 0 8px;
+}
+
+#social-icon {
+    font-size: 24px;
+    color: var(--white);
+}
+
+@media screen and (min-width: 835px) and (max-width: 1280px) {
+    nav {
+        display: flex;
+        position: unset;
+        width: 100%;
+        background-color: transparent;
+        box-shadow: none;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .container-navbar {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav-item {
+        padding-left: 16px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
+    .toggle-button-cover {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .theme {
+        display: none;
+    }
+
+    .social {
+        margin: 0;
+        padding: 0;
+        justify-content: end;
+    }
+
+    .nav-social {
+        margin-left: 4px;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1728px) {
+    nav {
+        display: flex;
+        position: unset;
+        width: 100%;
+        background-color: transparent;
+        box-shadow: none;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .container-navbar {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav-item {
+        padding-left: 16px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
+    .toggle-button-cover {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .theme {
+        display: none;
+    }
+
+    .social {
+        margin: 0;
+        padding: 0;
+        justify-content: end;
+    }
+
+    .nav-social {
+        margin-left: 4px;
+    }
+}
