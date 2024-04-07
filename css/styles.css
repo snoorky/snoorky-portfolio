@@ -1,5 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url("./header.css");
+@import url("./banner.css");
 
 /* Componentes */
 
@@ -88,32 +89,153 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "SF Pro Display Medium";
+    font-family: "SF Pro Display Regular";
+    line-height: 1.4;
     background: linear-gradient(90deg, #07233b 1.67%, #041d34 39.95%, #04192d 58.24%, #040e18 80.28%, #050c16 101.48%);
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 32px;
+    font-family: "SF Pro Display Semibold";
+    margin: 0;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 24px;
+    font-family: "SF Pro Display Medium";
+    margin: 0;
 }
 
 h3 {
-    font-size: 1.75rem;
+    font-size: 28px;
+    margin: 0;
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 24px;
+    margin: 0;
 }
 
 h5 {
-    font-size: 1.25rem;
+    font-size: 20px;
+    margin: 0;
 }
 
 h6,
 p,
 span {
-    font-size: 1rem;
+    font-size: 16px;
+    margin: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    /* h3 {
+        font-size: 28px;
+    } */
+
+    /* h4 {
+        font-size: 24px;
+    } */
+
+    /* h5 {
+        font-size: 20px;
+    } */
+
+    /* h6,
+    p,
+    span {
+        font-size: 16px;
+    } */
+}
+
+@media screen and (min-width: 431px) and (max-width: 834px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    /* h3 {
+        font-size: 28px;
+    } */
+
+    /* h4 {
+        font-size: 24px;
+    } */
+
+    /* h5 {
+        font-size: 20px;
+    } */
+
+    h6,
+    p,
+    span {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 835px) and (max-width: 1280px) {
+    h1 {
+        font-size: 82px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    /* h3 {
+        font-size: 28px;
+    } */
+
+    /* h4 {
+        font-size: 24px;
+    } */
+
+    /* h5 {
+        font-size: 20px;
+    } */
+
+    /* h6,
+    p,
+    span {
+        font-size: 16px;
+    } */
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1728px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6,
+    p,
+    span {
+        font-size: 16px;
+    }
 }

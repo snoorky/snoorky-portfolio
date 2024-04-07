@@ -1,0 +1,94 @@
+.banner {
+    color: var(--white);
+    width: auto auto;
+    padding: 0 5%;
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hello {
+    text-align: justify;
+    margin: 4px 0;
+}
+
+.cta {
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 16px;
+    font-family: "SF Pro Display Medium";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--primary);
+    margin: 32px 0;
+    padding: 16px 0;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#cta-toggler {
+    font-size: 24px;
+}
+
+.profile img {
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+@media screen and (min-width: 431px) and (max-width: 834px) {
+    .banner {
+        text-align: center;
+    }
+
+    .welcome {
+        margin: auto auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+    }
+
+    .hello {
+        text-align: center;
+        margin: 4px 0;
+    }
+
+    .cta {
+        width: auto;
+        padding: 16px 32px;
+    }
+}
+
+@media screen and (min-width: 835px) and (max-width: 1280px) {
+    .banner {
+        flex-direction: row;
+    }
+
+    .welcome {
+        display: block;
+        margin: auto;
+        width: auto;
+    }
+
+    .cta {
+        margin: 32px 0;
+        padding: 16px 32px;
+        width: auto;
+    }
+
+    .profile {
+        width: auto;
+        display: flex;
+        justify-content: end;
+    }
+
+    .profile img {
+        object-fit: contain;
+        width: 90%;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1728px) {}
