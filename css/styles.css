@@ -205,37 +205,37 @@ span {
         font-size: 20px;
     } */
 
-    /* h6,
+    h6,
     p,
     span {
-        font-size: 16px;
-    } */
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1728px) {
     h1 {
-        font-size: 40px;
+        font-size: 100px;
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 58px;
     }
 
-    h3 {
+    /* h3 {
         font-size: 28px;
-    }
+    } */
 
-    h4 {
+    /* h4 {
         font-size: 24px;
-    }
+    } */
 
-    h5 {
+    /* h5 {
         font-size: 20px;
-    }
+    } */
 
     h6,
     p,
     span {
-        font-size: 16px;
+        font-size: 22px;
     }
 }
